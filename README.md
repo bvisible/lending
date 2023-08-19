@@ -15,11 +15,11 @@ Open Source Lending software.
 3. Once ERPNext is installed, add the lending app to your bench by running
 
 	```sh
-	$ bench get-app lending
+	$ bench get-app https://github.com/bvisible/lending.git
 	```
 4. After that, you can install the lending app on the required site by running
 	```sh
-	$ bench --site sitename install-app lending
+	$ bench --site prod.local install-app lending
 	```
 
 ## Learning and Community
